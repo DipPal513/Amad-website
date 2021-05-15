@@ -1,0 +1,38 @@
+.shoppingcard{
+    overflow: hidden;
+}
+.shoppingcard img{
+    width: 100%;
+    object-fit: cover;
+    height: 80%;
+}
+.card_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card_body .left_body .line{
+    background: #fbb710;
+    width: 8rem;
+    height: .3rem;
+    margin-top: 2rem;
+}
+.card_body .left_body h5{
+    font-size: 3rem;
+    color: #fbb710;
+}
+.card_body .left_body p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card_body .right_body .stars i{
+   color: #fbb710;
+   margin-left: .2rem;
+}
+.card_body .right_body > i{
+    font-size: 2rem;
+    display: block;
+    padding-left: 3rem;
+ }

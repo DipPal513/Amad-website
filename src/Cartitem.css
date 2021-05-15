@@ -1,0 +1,51 @@
+
+tbody tr td img {
+    width: 15rem;
+}
+
+tbody tr td {
+    text-align: center;
+}
+tbody tr {
+    margin-bottom: 1rem;
+}
+tbody tr td p {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.td_qty {
+    display: flex;
+    align-items: center;
+    background: #f5f7fa;
+    padding: 1rem 1rem;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.qty_much {
+    display: flex;
+    align-items: center;
+}
+
+.td_qty p {
+    color: #6b6b6b;
+}
+
+.qty_much p {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.qty_much .plus {
+    margin-left: 1rem;
+}
+
+.qty_much .minus {
+    margin-right: 1rem;
+}
+
+.qty_much .num {
+    font-size: 1.6rem;
+}

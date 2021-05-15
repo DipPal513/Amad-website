@@ -1,0 +1,13 @@
+.Product_area {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+}
+/* .verticle{
+    grid-column: auto / 2 span;
+} */
+@media screen and (max-width:768px) {
+    .Product_area{
+        margin-top: 5rem;
+    }
+}

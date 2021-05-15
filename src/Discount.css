@@ -1,0 +1,96 @@
+.discount{
+    background: #3c3c3c;
+    position: relative;
+    padding: 8rem 5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.discount_grid{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-items: center;
+}
+
+
+.discount_left h1{
+    color: #fff;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.discount_left p{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    width: 100%;
+    color: #b3b1b1;
+}
+.discount_left h1 span{
+    color: #fbb710;
+}
+.single_input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.discount_right {
+    margin-left: 3rem;
+
+}
+.discount_right input{
+    height: 5rem;
+    min-width: 30rem;
+    width: 100%;
+    padding: 0rem 3rem;
+
+}
+.discount_right input::placeholder{
+    font-style: italic;
+    font-weight: 600;
+}
+.discount_right a{
+    display: flex;
+    color: #fff;
+    background: #fbb710;
+    padding: 2rem 3rem;
+    height: 50px;
+    margin-left: -1px;
+    font-size: 1.6rem;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1000px){
+    .discount_grid{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        align-items: center;
+    }
+    .discount_right {
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:525px){
+    .discount {
+        padding: 4rem 2rem;
+    }
+    .discount_left h1 {
+        font-size: 2rem;
+        max-width: 70%;
+    }
+    .discount_left p {
+        font-size: 1.3rem;
+        max-width: 61%;
+    }
+    .discount_right input {
+        min-width: 13rem;
+ 
+    }
+}

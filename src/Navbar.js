@@ -85,7 +85,7 @@ function navClose(){
           <a href="#fav">
             <i className="fa fa-star" aria-hidden="true"></i>favourite
           </a>
-          <a href="#search">
+          <a href="search">
             <i className="fa fa-search" aria-hidden="true"></i>search
           </a>
         </div>

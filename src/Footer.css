@@ -1,7 +1,7 @@
 footer{
     background: #000000e3;
     color: #fff;
-    padding: 8rem 0;
+    padding: 8rem 4rem;
     width: 100%;
 }
 .left_footer,.right_footer{
@@ -32,13 +32,32 @@ footer{
 .right_footer ul li a.active{
     color: #fbb710;
 }
-@media screen and (max-width:525px) {
+@media screen and (max-width:720px){
+    /* footer{
+        padding: 8rem 5rem;
+    } */
+    .right_footer,.left_footer{
+        flex: 0 0 100%;
+        
+    }
     .right_footer ul {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-evenly;
+      
+        justify-content: space-between;
+    }
+    .left_footer{
+        margin-bottom: 4rem;
+    }
+}
+@media screen and (max-width:425px) {
+     .right_footer ul {
         flex-direction: column;
+        align-items: flex-start;
+    } 
+    .left_footer p {
+        width: 100%;
     }
     
+    .right_footer ul li{
+        margin-bottom: .5rem;
+    } 
 }

@@ -74,6 +74,9 @@ textarea{
     text-transform: capitalize;
     font-weight: 500;
 }
+.cart_bottom label {
+    margin-bottom: 1rem;
+}
 .checkout_form label input,.cart_bottom input{
     margin-right: 1rem;
 }

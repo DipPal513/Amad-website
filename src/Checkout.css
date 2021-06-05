@@ -29,6 +29,9 @@
     border-radius: 2px;
     transition: .2s ease-in;
 }
+form.checkout_form label {
+    margin: 1rem 0;
+}
 textarea{
     margin-bottom: 2rem;
 }
@@ -73,6 +76,7 @@ textarea{
     font-size: 1.4rem;
     text-transform: capitalize;
     font-weight: 500;
+    color :gray;
 }
 .cart_bottom label {
     margin-bottom: 1rem;

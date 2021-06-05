@@ -12,7 +12,11 @@ function Product() {
         setNum(num + 1)
     }
     function downNum(){
-        setNum(num - 1)
+
+        setNum(num - 1);
+        if(num === 0){
+            setNum(0)
+        }
 
     }
     function changeImg(e){

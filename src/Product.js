@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import './Product.css';
 import one from './images/1.jpg';
+import two from './images/2.jpg';
+import three from './images/3.jpg';
+import four from './images/4.jpg';
+import './Product.css';
 
 function Product() {
     const[num,setNum] = useState(0)
-
+    const [url,setUrl] = useState('');
     function upNum(){
         setNum(num + 1)
     }
@@ -12,10 +15,22 @@ function Product() {
         setNum(num - 1)
 
     }
+    function changeImg(e){
+        
+        setUrl(e.target.src)
+       
+    }
     return (
         <div className = 'product'>
             <div className="product_left">
-                <img src={one} alt="" />
+                <img src={url} alt="" />
+                <div className="subImage">
+                    <img src={one} onClick = {changeImg} alt="" />
+                    <img src={two} onClick = {changeImg} alt="" />
+                    <img src={three} onClick = {changeImg} alt="" />
+                    <img src={four} onClick = {changeImg} alt="" />
+                </div>
+
             </div>
             <div className="product_right">
                 <div className="product_price_line_top">

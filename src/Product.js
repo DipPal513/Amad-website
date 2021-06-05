@@ -7,7 +7,7 @@ import './Product.css';
 
 function Product() {
     const[num,setNum] = useState(0)
-    const [url,setUrl] = useState('');
+    const [url,setUrl] = useState('one');
     function upNum(){
         setNum(num + 1)
     }

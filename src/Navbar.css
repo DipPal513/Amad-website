@@ -70,7 +70,12 @@ ul li a::after {
 .nav_link.active ul li a,ul li a:hover {
     color: #fbb710;
 }
-
+.activeNav{
+    color: #fbb710;
+}
+.activeNav::after{
+    width: 30px;
+}
 .nav_link.active ul li a::after,
 ul li a:hover::after {
     width: 30px;
